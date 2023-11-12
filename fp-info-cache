@@ -1,4 +1,4 @@
-21863567165339652
+21868674448584199
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1265,7 +1265,7 @@ SMD Tactile Switch, http://www.helloxkb.com/public/images/pdf/TS-1187A-X-X-X.pdf
 SPST Tactile Switch
 0
 4
-2
+4
 Button_Switch_SMD
 SW_Push_SPST_NO_Alps_SKRK
 http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html
@@ -46830,6 +46830,13 @@ connector TE-Connectivity Micro-MaTch Vertical 215079-8 7-215079-8
 8
 8
 Connector_USB
+UJ2-BH-1-TH_CUD
+
+UJ2-BH-1-TH 
+0
+6
+6
+Connector_USB
 USB3_A_Molex_48393-001
 USB 3.0, type A, right angle (http://www.molex.com/pdm_docs/sd/483930003_sd.pdf)
 USB 3.0 type A right angle
@@ -76825,6 +76832,13 @@ Analog Devices KS-4 (like EIAJ SC-82)
 4
 4
 Package_TO_SOT_SMD
+DPAK_STM
+
+L78M12ABDT-TR 
+0
+3
+3
+Package_TO_SOT_SMD
 Diodes_SOT-553
 Diodes SOT-553, https://www.diodes.com/assets/Package-Files/SOT553.pdf
 SOT-553
@@ -85014,6 +85028,20 @@ Logo WEEE
 0
 0
 0
+Symbol
+smirk
+
+
+0
+0
+0
+Symbol
+smirk_small
+
+
+0
+0
+0
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -90621,10 +90649,3 @@ varistor
 0
 2
 2
-footprints
-CONN_MDJ-004_ADM
-
-MDJ-004-FS 
-0
-11
-10
