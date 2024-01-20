@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/xhero/devel/USB2LT/USB2LT.kicad_sch</source>
-    <date>2023 November 12, Sunday 14:37:42</date>
+    <date>2023 November 15, Wednesday 12:55:02</date>
     <tool>Eeschema 7.0.6-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -786,6 +786,7 @@
       <node ref="J1" pin="4" pinfunction="GND" pintype="power_out"/>
       <node ref="J1" pin="5" pinfunction="Shield" pintype="passive"/>
       <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J2" pin="4" pintype="passive"/>
       <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="5" pinfunction="GND" pintype="power_in"/>
@@ -928,25 +929,22 @@
     <net code="32" name="unconnected-(J2-Pad2)">
       <node ref="J2" pin="2" pintype="passive"/>
     </net>
-    <net code="33" name="unconnected-(J2-Pad4)">
-      <node ref="J2" pin="4" pintype="passive"/>
-    </net>
-    <net code="34" name="unconnected-(J2-Pad7)">
+    <net code="33" name="unconnected-(J2-Pad7)">
       <node ref="J2" pin="7" pintype="passive"/>
     </net>
-    <net code="35" name="unconnected-(U1-CBUS0-Pad15)">
+    <net code="34" name="unconnected-(U1-CBUS0-Pad15)">
       <node ref="U1" pin="15" pinfunction="CBUS0" pintype="bidirectional"/>
     </net>
-    <net code="36" name="unconnected-(U1-CBUS3-Pad16)">
+    <net code="35" name="unconnected-(U1-CBUS3-Pad16)">
       <node ref="U1" pin="16" pinfunction="CBUS3" pintype="bidirectional"/>
     </net>
-    <net code="37" name="unconnected-(U1-~{RTS}-Pad2)">
+    <net code="36" name="unconnected-(U1-~{RTS}-Pad2)">
       <node ref="U1" pin="2" pinfunction="~{RTS}" pintype="output"/>
     </net>
-    <net code="38" name="unconnected-(U4-D-Pad4)">
+    <net code="37" name="unconnected-(U4-D-Pad4)">
       <node ref="U4" pin="4" pinfunction="D" pintype="input"/>
     </net>
-    <net code="39" name="unconnected-(U5-R-Pad1)">
+    <net code="38" name="unconnected-(U5-R-Pad1)">
       <node ref="U5" pin="1" pinfunction="R" pintype="output"/>
     </net>
   </nets>
